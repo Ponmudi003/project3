@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eating Out Bill Splitter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Eating Out Bill Splitter</h1>
+	<div id="bill">
+		<h2>Bill Total:</h2>
+		<input type="number" id="bill-total" min="0" step="0.01">
+	</div>
+	<div id="split">
+		<h2>Split Among:</h2>
+		<input type="number" id="split-count" min="1">
+	</div>
+	<button id="calculate" onclick="calculate()">Calculate</button>
+	<div id="results"></div>
+
+	<script src="script.js"></script>
+</body>
+</html>
